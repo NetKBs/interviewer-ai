@@ -9,7 +9,7 @@ from main_backend import CIMBackend
 
 st.set_page_config(
     page_title="CIM AI | Enterprise Talent Analytics",
-    page_icon="◈",
+    page_icon="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3044f73c-0547-4b01-aeec-7ebff6555e1b/dmdg1ov-adf6091c-b91b-4c40-95f6-996dd8d5970d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi8zMDQ0ZjczYy0wNTQ3LTRiMDEtYWVlYy03ZWJmZjY1NTVlMWIvZG1kZzFvdi1hZGY2MDkxYy1iOTFiLTRjNDAtOTVmNi05OTZkZDhkNTk3MGQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.9Ect5kkHnRfXRQGXMaoZ47Q3dBuWOv0ubgEFrUBNL3o",
     layout="wide",
     initial_sidebar_state="collapsed",
 )
@@ -272,7 +272,7 @@ def extract_frames(video_path, max_frames=100):
 # VISTA 1: LANDING PAGE COMERCIAL
 # ---------------------------------------------------------
 def render_landing_page():
-    
+
     st.markdown(
         """
         <div class="landing-hero">
